@@ -6,8 +6,21 @@ import exper from './assets/education.png'
 import education from './assets/education.png'
 import arrow from './assets/arrow.png'
 import checkmark from './assets/checkmark.png'
+import email from './assets/email.png'
+import weather from './assets/weatherpic.png'
+
+
 
 function App() {
+
+  const handleGithubClick = () => {
+    window.open('https://github.com/kunalkumar2002/Weather-App', '_blank');
+  };
+
+  const handleLiveDemoClick = () => {
+    window.open('https://monumental-fenglisu-306b32.netlify.app/', '_blank');
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -264,6 +277,127 @@ function App() {
         onclick="location.href='./#projects'"
       />
     </section>
+
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src={weather}
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 className="experience-sub-title project-title">Project One</h2>
+      <div className="btn-container">
+        <button className="btn btn-color-2 project-btn" onClick={handleGithubClick}>
+          Github
+        </button>
+        <button className="btn btn-color-2 project-btn" onClick={handleLiveDemoClick}>
+          Live Demo
+        </button>
+      </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+         src={arrow}
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section> <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src={email}
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:9493kunal@gmail.com">9493kunal@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src={linkedinIcon}
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/kunal-kumar-kashyap">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Kunal Kumar. All Rights Reserved.</p>
+    </footer>
+
+
+
 
       </header>
     </div>

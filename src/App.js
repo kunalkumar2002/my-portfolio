@@ -119,7 +119,7 @@ function App() {
                 class="icon"
               />
               <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree</p>
+              <p>B.Tech. Bachelors Degree</p>
             </div>
           </div>
           <div class="text-container">

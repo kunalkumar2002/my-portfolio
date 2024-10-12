@@ -8,7 +8,7 @@ import arrow from './assets/arrow.png'
 import checkmark from './assets/checkmark.png'
 import email from './assets/email.png'
 import weather from './assets/weatherpic.png'
-
+import meal from './assets/mealapp.png'
 
 
 function App() {
@@ -314,13 +314,13 @@ function App() {
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/kunalkumar2002/eCommerce-web-App'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://super-kelpie-564506.netlify.app/'"
               >
                 Live Demo
               </button>
@@ -329,7 +329,7 @@ function App() {
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-3.png"
+                src={meal}
                 alt="Project 3"
                 class="project-img"
               />
@@ -338,13 +338,13 @@ function App() {
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/kunalkumar2002/Meal-App'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='kunalkumar2002.github.io/Meal-App/'"
               >
                 Live Demo
               </button>
